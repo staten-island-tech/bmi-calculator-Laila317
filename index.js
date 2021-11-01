@@ -1,9 +1,28 @@
+function bmi(){
 
-		function BMI() {
-			var h=document.getElementById('h').value;
-			var w=document.getElementById('w').value;
-			var bmi=w/(h/100*h/100);
-			var bmio=(bmi.toFixed(2));
-            document.getElementById("result").innerHTML="Your BMI is " + bmio;
+    let h = document.getElementById('height').value;
 
-		}
+
+    let w = document.getElementById('weight').value;
+
+
+    let bmi = w/ (h/100 *h/100);
+
+
+
+    let total = bmi.toFixed(2);
+
+
+
+document.getElementById('result').innerHTML = "Your BMI is " + total;
+
+
+
+}
+ 
+ 
+
+
+
+
+
