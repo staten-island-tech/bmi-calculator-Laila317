@@ -1,4 +1,7 @@
+
 function bmi(){
+
+  
 
     let h = document.getElementById('height').value;
 
@@ -17,8 +20,21 @@ function bmi(){
 document.getElementById('result').innerHTML = "Your BMI is " + total;
 
 
-
 }
+
+const user = {
+firstName: "Patrick",
+lastName: "Star",
+Bodytype: "Not an hourglass, but a star"
+
+};
+
+
+
+
+
+
+
  
  
 
