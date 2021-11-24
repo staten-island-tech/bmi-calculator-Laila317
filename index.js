@@ -1,7 +1,8 @@
 const user = {
     firstName: "Patrick",
     lastName: "Star",
-    Bodytype: "Not an hourglass, but a star"
+    Weight: "78kg",
+    Height: "110cm",
     
     };
 
