@@ -2,7 +2,7 @@ const person = {
     firstName: "Patrick",
     lastName: "Star",
     Weight: "78kg",
-    Height: "110cm",
+    Height: "30cm",
     
     };
 
@@ -38,4 +38,4 @@ function argument(person){
     console.log(`This is ${person}`);
 }
 
-argument("Patrick Star,  Weight: 78kg, Height:110cm ");
+argument("Patrick Star,  Weight: 78kg, Height:30cm ");
