@@ -9,7 +9,7 @@ const person = {
 function bmi(){
     let h = document.getElementById('height').value;
     let w = document.getElementById('weight').value;
-    let bmi = w/ (h/100 *h/100);
+    let bmi = w/ (h/100 * h/100);
     let total = bmi.toFixed(2);
 
 document.getElementById('result').innerHTML = "Your BMI is " + total;
@@ -35,7 +35,7 @@ document.getElementById('comment').innerHTML = `Range: <span id= "comment"> ${ra
 };
 
 function argument(person){
-    console.log(`this is ${person}`);
+    console.log(`This is ${person}`);
 }
 
 argument("Patrick Star,  Weight: 78kg, Height:110cm ");
